@@ -1,7 +1,17 @@
 aid: havocai
 name: HavocAI
-description: 'HavocAI is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: HavocAI (Havoc) is a Providence, Rhode Island-based defense technology
+  company building all-domain collaborative autonomy software and autonomous surface
+  vessels for the U.S. Navy, U.S. Army and allied militaries. Its software suite pairs
+  Havoc OS, an edge autonomy operating system for heterogeneous platforms, with Havoc
+  C2 for one-to-many operator control, Havoc Insights for real-time sensor and telemetry
+  analytics, and Havoc Connect, a resilient peer-to-peer overlay network for degraded
+  or GPS-denied environments. The company builds the Rampage, Seahound, Kiakoa and
+  Atlas autonomous surface vessels and is partnered with Hanwha on 200-foot ASVs. Enrichment
+  probing in July 2026 found no public developer API, OpenAPI or other machine-readable
+  contract, no developer portal or documentation, no published SDKs or packages, no
+  MCP server, and no A2A agent card - the platform is delivered under defense contract
+  rather than as a self-serve developer product.
 url: https://raw.githubusercontent.com/api-evangelist/havocai/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +22,15 @@ created: '2026-07-31'
 modified: '2026-07-31'
 tags:
 - Company
+- Defense
+- Defense Technology
+- Autonomy
+- Robotics
+- Maritime
+- Uncrewed Systems
+- Artificial Intelligence
+- Command and Control
+- Aerospace and Defense
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/havocai-domain-security.yml
 - type: Website
+  url: https://www.havocai.com/
+- type: Blog
+  url: https://medium.com/@HavocAI
+- type: BlogRSS
+  url: https://medium.com/feed/@HavocAI
+- type: Newsroom
+  url: https://havocai.com/newsroom
+- type: GitHubOrganization
+  url: https://github.com/HavocAI
+- type: Careers
+  url: https://jobs.ashbyhq.com/havocai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/havocai/
+- type: Twitter
+  url: https://x.com/havocai_usv
+- type: YouTube
+  url: https://www.youtube.com/@HavocAI-Solutions
+- type: PrivacyPolicy
+  url: https://havocai.com/privacy-policy
+- type: TermsOfService
+  url: https://havocai.com/terms-of-service
+- type: SecondaryMarket
   url: https://forgeglobal.com/havocai_stock/
+x-enrichment:
+  date: '2026-07-31'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
