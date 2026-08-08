@@ -9,13 +9,17 @@
       "method": "none"
     },
     {
-      "source": "https://medium.com/@HavocAI",
+      "source": "https://medium.com/feed/@HavocAI",
       "feed_url": "https://medium.com/feed/@HavocAI",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "feed"
+    },
+    {
+      "source": "https://medium.com/@HavocAI",
+      "error": "HTTPError"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-08-01T15:49:00Z"
+  "post_count": 10,
+  "fetched": "2026-08-06T14:08:46Z"
 }
